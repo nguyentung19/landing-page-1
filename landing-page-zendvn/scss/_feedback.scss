@@ -1,0 +1,34 @@
+.feedback {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 20px;
+  &__container {
+    display: flex;
+    align-items: flex-start;
+    width: 1000px;
+    max-width: 100%;
+  }
+  &__icon {
+    i {
+      color: #d7d7d8;
+      font-size: 5rem;
+      margin-right: 30px;
+    }
+  }
+  &__comment {
+    font-size: 2.8rem;
+    color: $main-color;
+    line-height: 45px;
+    margin-bottom: 30px;
+  }
+  &__rating {
+      color: yellow;
+      margin-bottom: 15px;
+  }
+  &__user {
+      font-size: 1.4rem;
+      font-weight: 700;
+      text-transform: uppercase;
+  }
+}
